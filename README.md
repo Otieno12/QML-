@@ -1,3 +1,71 @@
+# Hi there, I'm Edward Otieno 👋
+
+## About Me
+
+I am a student of Chemistry and Materials Engineering with a passion for computational modeling and quantum machine learning. My current focus is on classifying liquid crystals using advanced computational techniques.
+
+## Skills
+
+- **Chemistry & Materials Engineering**
+  - Computational Chemistry
+  - Materials Characterization
+  - Liquid Crystals Research
+
+- **Computational Modeling**
+  - Molecular Dynamics (GROMACS)
+  - Density Functional Theory (DFT)
+  - Monte Carlo Simulations
+
+- **Quantum Machine Learning**
+  - Quantum Circuits
+  - Quantum Data Encoding
+  - Qiskit & PennyLane
+
+- **Programming Languages**
+  - Python
+  - javascript
+  - MATLAB
+  - R
+  - Rust
+
+## Projects
+
+### [QML for Liquid Crystals Classification](https://github.com/Otieno12/QML-)
+Developing a quantum machine learning model to classify liquid crystals phases. The project involves using quantum circuits and classical-quantum hybrid models to achieve high accuracy in phase classification.
+
+### [Simulation of Liquid Crystals Using GROMACS](https://github.com/Otieno12/LC-Simulation)
+A comprehensive project simulating the behavior of liquid crystals using GROMACS, focusing on phase transitions and molecular dynamics.
+
+## Contact
+
+- **Email:** [your-email@example.com]
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **Twitter:** [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+
+Feel free to reach out if you have any questions or if you'd like to collaborate on a project!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 git clone https://github.com/your-username/liquid-crystal-qcnn.git
