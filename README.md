@@ -38,36 +38,13 @@ A comprehensive project simulating the behavior of liquid crystals using GROMACS
 
 ## Contact
 
-- **Email:** [your-email@example.com]
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
-- **Twitter:** [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+- **Email:** otienoedwardotieno82@gmail.com
+- **LinkedIn:** Edward Otieno
+- **Twitter:** Edward Otieno
 
 Feel free to reach out if you have any questions or if you'd like to collaborate on a project!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## workflow 
 git clone https://github.com/your-username/liquid-crystal-qcnn.git
 cd liquid-crystal-qcnn
 pip install -r requirements.txt
