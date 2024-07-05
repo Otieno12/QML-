@@ -1,54 +1,42 @@
-# Hi there, I'm Edward Otieno 👋
+# Quantum Machine Learning Classification of Liquid Crystals👋
 
-## About Me
+## Overview
 
-I am a student of Chemistry and Materials Engineering with a passion for computational modeling and quantum machine learning. My current focus is on classifying liquid crystals using advanced computational techniques.
+This project aims to develop a quantum machine learning model to classify different phases of liquid crystals. We utilize an Autoencoder U-Net model to preprocess the images and extract meaningful features. The ground truth of the images is accessed to validate the classification performance..
 
-## Skills
+## Project Structure
+data/: Contains the dataset of liquid crystal images.
+models/: Contains the implementation of the Autoencoder U-Net and quantum machine learning models.
+notebooks/: Jupyter notebooks for data preprocessing, model training, and evaluation.
+scripts/: Python scripts for various tasks such as data augmentation and model inference.
+README.md: This file, providing an overview of the project and instructions to get started.
 
-- **Chemistry & Materials Engineering**
-  - Computational Chemistry
-  - Materials Characterization
-  - Liquid Crystals Research
+##Dataset
+The dataset consists of grayscale images of liquid crystals captured under different conditions. The images are preprocessed and normalized before being fed into the model.
 
-- **Computational Modeling**
-  - Molecular Dynamics (GROMACS)
-  - Density Functional Theory (DFT)
-  - Monte Carlo Simulations
+##Model
+##Autoencoder U-Net
+The Autoencoder U-Net model is used to denoise and preprocess the images, helping in extracting relevant features. The architecture is as follows:
+**Encoder**: Series of convolutional layers to capture features.
+**Bottleneck**: Compressed representation of the input.
+**Decoder**: Series of deconvolutional layers to reconstruct the image.
 
-- **Quantum Machine Learning**
-  - Quantum Circuits
-  - Quantum Data Encoding
-  - Qiskit & PennyLane
+## Quantum Classifier
+The quantum classifier leverages quantum circuits to classify the extracted features into different phases of liquid crystals. The classifier is trained and validated using the preprocessed images from the Autoencoder U-Net.
 
-- **Programming Languages**
-  - Python
-  - javascript
-  - MATLAB
-  - R
-  - Rust
+##Setup
+##Prerequisites
+**Python 3.7+**
+**TensorFlow**
+**PennyLane**
+**OpenCV**
+**scikit-learn**
+**Matplotlib**
 
-## Projects
-
-### [QML for Liquid Crystals Classification](https://github.com/Otieno12/QML-)
-Developing a quantum machine learning model to classify liquid crystals phases. The project involves using quantum circuits and classical-quantum hybrid models to achieve high accuracy in phase classification.
-
-### [Simulation of Liquid Crystals Using GROMACS](https://github.com/Otieno12/LC-Simulation)
-A comprehensive project simulating the behavior of liquid crystals using GROMACS, focusing on phase transitions and molecular dynamics.
-
-## Contact
-
-- **Email:** otienoedwardotieno82@gmail.com
-- **LinkedIn:** Edward Otieno
-- **Twitter:** Edward Otieno
-
-Feel free to reach out if you have any questions or if you'd like to collaborate on a project!
-
-## workflow 
-git clone https://github.com/your-username/liquid-crystal-qcnn.git
-cd liquid-crystal-qcnn
-pip install -r requirements.txt
-
+##Installation
+1.Clone the repository:
+git clone https://github.com/Otieno12/QML-liquid-crystals.git
+cd QML-liquid-crystals
 
 import cv2
 import os
@@ -127,3 +115,10 @@ val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 
 accuracy, loss = evaluate(model, val_loader, criterion)
 print(f'Validation Accuracy: {accuracy:.4f}, Validation Loss: {loss:.4f}')
+
+
+- **Email:** otienoedwardotieno82@gmail.com
+- **LinkedIn:** Edward Otieno
+- **Twitter:** Edward Otieno
+
+Feel free to reach out if you have any questions or if you'd like to collaborate on a project!
