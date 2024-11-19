@@ -1,8 +1,7 @@
 # Quantum Machine Learning Classification of Liquid Crystals👋
 
 ## Overview
-
-This project aims to develop a quantum machine learning model to classify different phases of liquid crystals. We utilize an Autoencoder U-Net model to preprocess the images and extract meaningful features. The ground truth of the images is accessed to validate the classification performance..
+This project aims to develop a hybrid quantum machine learning (QML) framework to classify different phases of liquid crystals. We incorporate a Quantum Ordinal Neural Network (QONN) to account for the inherent order in the phases (e.g., nematic < smectic < isotropic). To enhance the input quality, we leverage an Autoencoder U-Net model to preprocess the images and extract meaningful features. These features are encoded into quantum states for processing by the QONN, ensuring effective utilization of quantum-enhanced computations. The ground truth of the images is used to validate the classification performance, emphasizing the model's ability to respect the ordinal relationships between phases while maintaining high accuracy.
 
 ## Project Structure
 data/: Contains the dataset of liquid crystal images.
