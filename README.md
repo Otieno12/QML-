@@ -14,20 +14,15 @@ README.md: This file, providing an overview of the project and instructions to g
 The dataset consists of grayscale images of liquid crystals captured under different conditions. The images are preprocessed and normalized before being fed into the model.
 
 ##Model
-##Autoencoder U-Net
-The Autoencoder U-Net model is used to denoise and preprocess the images, helping in extracting relevant features. The architecture is as follows:
-**Encoder**: Series of convolutional layers to capture features.
-**Bottleneck**: Compressed representation of the input.
-**Decoder**: Series of deconvolutional layers to reconstruct the image.
+ResNet 50 and Ordinal Neural network for phase transition temp predictions 
 
-## Quantum Classifier
-The quantum classifier leverages quantum circuits to classify the extracted features into different phases of liquid crystals. The classifier is trained and validated using the preprocessed images from the Autoencoder U-Net.
+
 
 ##Setup
 ##Prerequisites
 **Python 3.7+**
 **TensorFlow**
-**PennyLane**
+**Torch**
 **OpenCV**
 **scikit-learn**
 **Matplotlib**
