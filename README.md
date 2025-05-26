@@ -1,7 +1,7 @@
 # Integrating deep leep into Classification of Liquid Crystals👋
 
 ## Overview
-This project aims to develop a deep learning (DL) framework to classify different phases of liquid crystals. We incorporate a Ordinal Neural Network (ONN) to account for the inherent order in the phases (e.g., nematic < smectic < isotropic). To enhance the input quality, we leverage an Resnet 50 to extract features from the images.  The ground truth of the images is used to validate the classification performance, emphasizing the model's ability to respect the ordinal relationships between phases while maintaining high accuracy.
+This project aims to develop a deep learning (DL) framework to classify different phases of liquid crystals. We incorporate a Deep Neural Network (DNN) -to classify (e.g., nematic < smectic < isotropic). To enhance the input quality, we leverage an Resnet 50 to extract features from the images.  The ground truth of the images is used to validate the classification performance, emphasizing the model's ability to respect the ordinal relationships between phases while maintaining high accuracy.
 
 ## Project Structure
 data/: Contains the dataset of liquid crystal images.
@@ -11,10 +11,10 @@ scripts/: Python scripts for various tasks such as data augmentation and model i
 README.md: This file, providing an overview of the project and instructions to get started.
 
 ##Dataset
-The dataset consists of grayscale images of liquid crystals captured under different conditions. The images are preprocessed and normalized before being fed into the model.
+The dataset consists images of liquid crystals captured under different conditions. The images are preprocessed and normalized before being fed into the model.
 
 ##Model
-ResNet 50 and Ordinal Neural network for phase transition temp predictions 
+ResNet 50  
 
 
 
