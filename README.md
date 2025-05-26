@@ -1,7 +1,7 @@
 # Integrating deep leep into Classification of Liquid Crystals👋
 
 ## Overview
-This project aims to develop a deep learning (DL) framework to classify different phases of liquid crystals. We incorporate a Deep Neural Network (DNN) -to classify (e.g., nematic < smectic < isotropic). To enhance the input quality, we leverage an Resnet 50 to extract features from the images.  The ground truth of the images is used to validate the classification performance, emphasizing the model's ability to respect the ordinal relationships between phases while maintaining high accuracy.
+This project aims to develop a deep learning (DL) framework to classify different phases of liquid crystals. We incorporate a Deep Neural Network (DNN) -to classify (e.g., nematic < smectic < isotropic). To enhance the input quality, we leverage an Resnet 50 to extract features from the images.  The ground truth of the images is used to validate the classification performance, Grad-Cam Approach is employed to add the explainability of the model as well as achieving high accuracy for the predictions.
 
 ## Project Structure
 data/: Contains the dataset of liquid crystal images.
